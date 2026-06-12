@@ -109,7 +109,7 @@ const CELLS = {
     fit: "strong",
     display: "cell-fill",
     image: {
-      src: "/tropomi_ch4_column_2020_01_04.png",
+      src: `${import.meta.env.BASE_URL}tropomi_ch4_column_2020_01_04.png`,
       alt: "TROPOMI methane column density plume detection, January 4 2020",
       caption: "TROPOMI / Sentinel-5P — CH₄ column density, Jan 4 2020",
     },
@@ -158,7 +158,7 @@ const CELLS = {
     fit: "strong",
     display: "banner",
     image: {
-      src: "/pr-nightlights.gif",
+      src: `${import.meta.env.BASE_URL}pr-nightlights.gif`,
       alt: "Puerto Rico night lights before and after Hurricane Maria",
       caption: "VIIRS Day/Night Band — Puerto Rico grid collapse after Hurricane Maria, Sept 2017",
     },
